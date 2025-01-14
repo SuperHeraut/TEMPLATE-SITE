@@ -12,5 +12,10 @@ html body {
     margin: auto;
   }
 }
+html,
+a,
+button {
+  cursor: url(../img/technical/cursor.svg), pointer;
+}
 
 /*# sourceMappingURL=style.css.map */
