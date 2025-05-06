@@ -12,6 +12,10 @@ html body {
     margin: auto;
   }
 }
+img {
+  height: 100%;
+}
+
 html,
 a,
 button {

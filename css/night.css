@@ -6,13 +6,28 @@ button {
 
 body {
   background-color: #000;
-  background-image: url(../img/technical/night-bg.svg);
-  color: #ffc000;
+  /* background-image: url(../img/technical/night-bg.svg); */
+  color: #ffffffff;
 }
 
-button {
-  color: #ffc000;
-  background-color: #000810;
+button,
+input[type="submit"] {
+  color: #000000ff;
+  background-color: #ffc000ff;
+}
+textarea {
+  background-color: #404040ff;
+  color: #ffffffff;
+  outline: none;
+  border: none;
+}
+input {
+  &[type="text"],
+  &[type="email"],
+  &[type="checkbox"],
+  &[type="radio"] {
+    @extend textarea;
+  }
 }
 
 header,
