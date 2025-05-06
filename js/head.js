@@ -11,7 +11,9 @@ STYLE.setAttribute("rel", "stylesheet");
 STYLE.setAttribute("href", "../css/style.css");
 FAVICON.setAttribute("rel", "icon");
 FAVICON.setAttribute("type", "image/x-icon");
-FAVICON.setAttribute("href", "../img/technical/favicon.ico");
+FAVICON.setAttribute("href", "../img/technical/favicon.svg");
+MODE.setAttribute("rel", "stylesheet");
+MODE.setAttribute("href", "../css/" + style + ".css");
 TABTITLE.innerHTML = PAGENAME;
 
 HEAD.appendChild(CHARSET);
@@ -20,3 +22,4 @@ HEAD.appendChild(RESET);
 HEAD.appendChild(STYLE);
 HEAD.appendChild(FAVICON);
 HEAD.appendChild(TABTITLE);
+HEAD.appendChild(MODE);
