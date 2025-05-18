@@ -12,6 +12,16 @@ html body {
     margin: auto;
   }
 }
+h1 {
+  font-size: 1.5rem;
+}
+
+span.upsideDown {
+  display: inline-block;
+  transform-origin: 0, 15%;
+  transform: rotate(180deg);
+}
+
 img {
   height: 100%;
 }
