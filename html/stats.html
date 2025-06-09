@@ -10,6 +10,87 @@
 		<p>
 			&#208;&#42860; &#42860; a te&#64261; &#383;ite &#240;&#547; can&#64261; edit. 
 		</p>
+		<section>
+	<h2>Forms that work on every Casio calculator</h2>
+
+	<form action="/submit" method="post">
+		<fieldset>
+			<legend>Prepare to be underwhelmed, asshole</legend>
+
+			<label for="text-input">Fucking text input:</label>
+			<input type="text" id="text-input" name="text-input" placeholder="Type something, genius" pattern="[A-Za-z]+" title="Letters only, you illiterate fuck" required="">
+			<br>
+
+			<label for="range-input">Slide this to show how much you love HTML (0 to 100%):</label>
+			<input type="range" id="range-input" name="range-input" min="0" max="100">
+			<br>
+
+			<label for="color-input">Pick a color that matches your soul (hint: it's probably gray):</label>
+			<input type="color" id="color-input" name="color-input">
+			<br>
+
+			<label for="file-input">Upload a file you'll never find again (PDF only, because we're assholes):</label>
+			<input type="file" id="file-input" name="file-input" accept=".pdf" multiple="">
+			<br>
+
+			<label>
+				<input type="checkbox" name="checkbox" value="1">
+				Check this if you're a robot (we won't tell, you soulless fuck)
+			</label>
+			<br>
+
+			<label>
+				<input type="radio" name="radio-group" value="option1">
+				Pick your poison: Option 1
+			</label>
+			<br>
+
+			<label>
+				<input type="radio" name="radio-group" value="option2">
+				Pick your poison: Option 2
+			</label>
+			<br>
+
+			<label for="select-input">Choose your favorite way to waste time, you lazy prick:</label>
+			<select name="select-input" id="select-input">
+				<optgroup label="Productive Wasting">
+					<option value="1">Organizing your desk for the 10th time</option>
+					<option value="2">Cleaning your inbox (lol, good luck)</option>
+				</optgroup>
+				<optgroup label="Unproductive Wasting">
+					<option value="3">Watching cat videos</option>
+					<option value="4">Staring at the wall like a dumbass</option>
+				</optgroup>
+			</select>
+			<br>
+
+			<label for="textarea">Pour your heart out here, or just bitch about frameworks:</label>
+			<textarea name="textarea" id="textarea" rows="4" cols="40" placeholder="Go on, vent your pathetic frustrations"></textarea>
+			<br>
+
+			<label for="browser-input">Admit which browser you use (we already know it's trash):</label>
+			<input type="text" id="browser-input" list="browsers">
+			<datalist id="browsers">
+				<option value="Chrome">
+				</option><option value="Firefox">
+				</option><option value="Safari">
+				</option><option value="Brave"></option>
+				<option value="Internet Explorer (seriously, wtf?)">
+			</option></datalist>
+			<br>
+
+			<label for="meter">Your current level of giving a fuck:</label>
+			<meter id="meter" value="0.6">60% (barely)</meter>
+			<br>
+
+			<label for="progress">How close you are to rage-quitting this form:</label>
+			<progress id="progress" value="70" max="100">70% (almost there)</progress>
+			<br>
+		</fieldset>
+
+		<button type="submit">Submit (to your fate, you pain junkie)</button>
+		<button type="reset">Reset (your expectations, not that they were high)</button>
+	</form>
 	</main>
 	<footer></footer>
 	<script src="../js/script.js"></script>
